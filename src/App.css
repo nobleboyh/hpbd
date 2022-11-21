@@ -1,7 +1,19 @@
+:root{
+  --main-max-width: 1080px;
+}
 .App {
   text-align: center;
+  background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
 }
+.app-container{
+  max-width: var(--main-max-width);
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-self: center;
 
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

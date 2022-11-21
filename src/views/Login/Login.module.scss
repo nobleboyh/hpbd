@@ -1,0 +1,17 @@
+.container{
+    width: 400px;
+    background-color: #fff;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+    
+    #name{
+        margin: 1rem 0;
+        line-height: 2rem;
+        padding: 1rem;
+    }
+}
