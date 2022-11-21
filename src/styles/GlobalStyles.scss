@@ -61,3 +61,7 @@ body{
     background-image: #fff;
     color: #000;
 }
+
+button:hover{
+  filter: brightness(90%);
+}
